@@ -1,0 +1,12 @@
+C:\Users\vinir\source\repos\Rest-Api\Atacado.POCO\bin\Debug\Atacado.POCO.dll
+C:\Users\vinir\source\repos\Rest-Api\Atacado.POCO\bin\Debug\Atacado.POCO.pdb
+C:\Users\vinir\source\repos\Rest-Api\Atacado.POCO\bin\Debug\Atacado.DAL.dll
+C:\Users\vinir\source\repos\Rest-Api\Atacado.POCO\bin\Debug\EntityFramework.dll
+C:\Users\vinir\source\repos\Rest-Api\Atacado.POCO\bin\Debug\Atacado.DAL.pdb
+C:\Users\vinir\source\repos\Rest-Api\Atacado.POCO\bin\Debug\Atacado.DAL.dll.config
+C:\Users\vinir\source\repos\Rest-Api\Atacado.POCO\bin\Debug\EntityFramework.xml
+C:\Users\vinir\source\repos\Rest-Api\Atacado.POCO\obj\Debug\Atacado.POCO.csproj.AssemblyReference.cache
+C:\Users\vinir\source\repos\Rest-Api\Atacado.POCO\obj\Debug\Atacado.POCO.csproj.CoreCompileInputs.cache
+C:\Users\vinir\source\repos\Rest-Api\Atacado.POCO\obj\Debug\Atacado.POCO.csproj.CopyComplete
+C:\Users\vinir\source\repos\Rest-Api\Atacado.POCO\obj\Debug\Atacado.POCO.dll
+C:\Users\vinir\source\repos\Rest-Api\Atacado.POCO\obj\Debug\Atacado.POCO.pdb

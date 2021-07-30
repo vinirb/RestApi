@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApiTeste</name>
+    </assembly>
+    <members>
+        <member name="T:WebApiTeste.Controllers.RegiaoController">
+            <summary>
+            Serviços API para Tabela Região.
+            </summary>
+        </member>
+        <member name="M:WebApiTeste.Controllers.RegiaoController.Get">
+            <summary>
+            Obtém todos os registros da tabela.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

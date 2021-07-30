@@ -1,0 +1,16 @@
+C:\Users\vinir\source\repos\Rest-Api\Atacado.Mapping\bin\Debug\Atacado.Mapping.dll
+C:\Users\vinir\source\repos\Rest-Api\Atacado.Mapping\bin\Debug\Atacado.Mapping.pdb
+C:\Users\vinir\source\repos\Rest-Api\Atacado.Mapping\bin\Debug\Atacado.DAL.dll
+C:\Users\vinir\source\repos\Rest-Api\Atacado.Mapping\bin\Debug\Atacado.POCO.dll
+C:\Users\vinir\source\repos\Rest-Api\Atacado.Mapping\bin\Debug\AutoMapper.dll
+C:\Users\vinir\source\repos\Rest-Api\Atacado.Mapping\bin\Debug\EntityFramework.dll
+C:\Users\vinir\source\repos\Rest-Api\Atacado.Mapping\bin\Debug\Atacado.DAL.pdb
+C:\Users\vinir\source\repos\Rest-Api\Atacado.Mapping\bin\Debug\Atacado.DAL.dll.config
+C:\Users\vinir\source\repos\Rest-Api\Atacado.Mapping\bin\Debug\Atacado.POCO.pdb
+C:\Users\vinir\source\repos\Rest-Api\Atacado.Mapping\bin\Debug\AutoMapper.xml
+C:\Users\vinir\source\repos\Rest-Api\Atacado.Mapping\bin\Debug\EntityFramework.xml
+C:\Users\vinir\source\repos\Rest-Api\Atacado.Mapping\obj\Debug\Atacado.Mapping.csproj.AssemblyReference.cache
+C:\Users\vinir\source\repos\Rest-Api\Atacado.Mapping\obj\Debug\Atacado.Mapping.csproj.CoreCompileInputs.cache
+C:\Users\vinir\source\repos\Rest-Api\Atacado.Mapping\obj\Debug\Atacado.Mapping.csproj.CopyComplete
+C:\Users\vinir\source\repos\Rest-Api\Atacado.Mapping\obj\Debug\Atacado.Mapping.dll
+C:\Users\vinir\source\repos\Rest-Api\Atacado.Mapping\obj\Debug\Atacado.Mapping.pdb

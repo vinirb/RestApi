@@ -1,0 +1,15 @@
+C:\Users\vinir\source\repos\Rest-Api\Encontro27UsandoDAL\bin\Debug\Encontro27UsandoDAL.exe.config
+C:\Users\vinir\source\repos\Rest-Api\Encontro27UsandoDAL\bin\Debug\Encontro27UsandoDAL.exe
+C:\Users\vinir\source\repos\Rest-Api\Encontro27UsandoDAL\bin\Debug\Encontro27UsandoDAL.pdb
+C:\Users\vinir\source\repos\Rest-Api\Encontro27UsandoDAL\bin\Debug\Atacado.DAL.dll
+C:\Users\vinir\source\repos\Rest-Api\Encontro27UsandoDAL\bin\Debug\EntityFramework.dll
+C:\Users\vinir\source\repos\Rest-Api\Encontro27UsandoDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vinir\source\repos\Rest-Api\Encontro27UsandoDAL\bin\Debug\Atacado.DAL.pdb
+C:\Users\vinir\source\repos\Rest-Api\Encontro27UsandoDAL\bin\Debug\Atacado.DAL.dll.config
+C:\Users\vinir\source\repos\Rest-Api\Encontro27UsandoDAL\bin\Debug\EntityFramework.xml
+C:\Users\vinir\source\repos\Rest-Api\Encontro27UsandoDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vinir\source\repos\Rest-Api\Encontro27UsandoDAL\obj\Debug\Encontro27UsandoDAL.csproj.AssemblyReference.cache
+C:\Users\vinir\source\repos\Rest-Api\Encontro27UsandoDAL\obj\Debug\Encontro27UsandoDAL.csproj.CoreCompileInputs.cache
+C:\Users\vinir\source\repos\Rest-Api\Encontro27UsandoDAL\obj\Debug\Encontro27UsandoDAL.csproj.CopyComplete
+C:\Users\vinir\source\repos\Rest-Api\Encontro27UsandoDAL\obj\Debug\Encontro27UsandoDAL.exe
+C:\Users\vinir\source\repos\Rest-Api\Encontro27UsandoDAL\obj\Debug\Encontro27UsandoDAL.pdb

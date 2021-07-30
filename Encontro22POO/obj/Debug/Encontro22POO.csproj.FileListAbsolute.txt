@@ -1,0 +1,6 @@
+C:\Users\vinir\source\repos\Rest-Api\Encontro22POO\bin\Debug\Encontro22POO.exe.config
+C:\Users\vinir\source\repos\Rest-Api\Encontro22POO\bin\Debug\Encontro22POO.exe
+C:\Users\vinir\source\repos\Rest-Api\Encontro22POO\bin\Debug\Encontro22POO.pdb
+C:\Users\vinir\source\repos\Rest-Api\Encontro22POO\obj\Debug\Encontro22POO.csproj.CoreCompileInputs.cache
+C:\Users\vinir\source\repos\Rest-Api\Encontro22POO\obj\Debug\Encontro22POO.exe
+C:\Users\vinir\source\repos\Rest-Api\Encontro22POO\obj\Debug\Encontro22POO.pdb
