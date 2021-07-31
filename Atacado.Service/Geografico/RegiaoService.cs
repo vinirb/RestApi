@@ -12,11 +12,9 @@ using System.Threading.Tasks;
 
 namespace Atacado.Service.Geografico
 {
-    public class RegiaoService : IService<RegiaoPoco>
+    public class RegiaoService : GenericService<DbContext, Regiao , CategoriaPoco>, IService<RegiaoPoco>
     {
-        private RegiaoRepository repositorio;
-
-        private RegiaoMap mapa;
+       
 
         public RegiaoService(DbContext contexto)
         {
@@ -67,5 +65,6 @@ namespace Atacado.Service.Geografico
 
             return novoPoco;
         }
+       
     }
 }

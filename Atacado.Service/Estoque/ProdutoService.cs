@@ -12,11 +12,9 @@ using System.Threading.Tasks;
 
 namespace Atacado.Service.Estoque
 {
-    public class ProdutoService : IService<ProdutoPoco>
+    public class ProdutoService : GenericService<DbContext, produto, CategoriaPoco>, IService<ProdutoPoco>
     {
-        private ProdutoRepository repositorio;
-
-        private ProdutoMap mapa;
+       
 
         public ProdutoService(DbContext contexto)
         {
@@ -66,7 +64,7 @@ namespace Atacado.Service.Estoque
 
             return novoPoco;
         }
-
         
+
     }
 }

@@ -38,6 +38,6 @@ namespace Atacado.DAL.Model
         public virtual ICollection<Municipio> Municipios { get; set; }
 
         public virtual Regiao Regiao { get; set; }
-        public DateTime? DataInclusao { get; set; }
+        
     }
 }

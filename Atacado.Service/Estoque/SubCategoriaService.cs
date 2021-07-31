@@ -12,11 +12,9 @@ using System.Threading.Tasks;
 
 namespace Atacado.Service.Estoque
 {
-    public class SubCategoriaService : IService<SubCategoriaPoco>
+    public class SubCategoriaService : GenericService<DbContext, subcategoria, CategoriaPoco>, IService<SubCategoriaPoco>
     {
-        private SubCategoriaRepository repositorio;
-
-        private SubCategoriaMap mapa;
+        
 
         public SubCategoriaService(DbContext contexto)
         {
@@ -67,7 +65,6 @@ namespace Atacado.Service.Estoque
 
             return NovoPoco;
         }
-
 
     }
 }

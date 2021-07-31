@@ -12,11 +12,9 @@ using Atacado.Mapping.Estoque;
 
 namespace Atacado.Service.Estoque
 {
-    public class CategoriaService : IService<CategoriaPoco>
+    public class CategoriaService : GenericService<DbContext,categoria,CategoriaPoco> , IService<CategoriaPoco>
     {
-        private CategoriaRepository repositorio;
-
-        private CategoriaMap mapa;
+       
 
         public CategoriaService(DbContext contexto)
         {
@@ -66,6 +64,6 @@ namespace Atacado.Service.Estoque
 
             return novoPoco;
         }
-        
+
     }
 }

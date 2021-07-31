@@ -1,6 +1,7 @@
 ﻿using Atacado.DAL.Model;
 using Atacado.POCO.Model;
 using Atacado.Service.Geografico;
+using AtacadoRestApi.Ancestor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,9 +16,9 @@ namespace AtacadoRestApi.Controllers
     /// Serviços para a Tabela Região.
     /// </summary>
     [RoutePrefix("atacado/geografico/regioes")]
-    public class RegiaoController : BaseController
+    public class RegiaoController : GenericBaseController<RegiaoPoco>
     {
-        private RegiaoService servico;
+        
 
         public RegiaoController() : base()
         {
@@ -166,14 +167,6 @@ namespace AtacadoRestApi.Controllers
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, ex);
             }
         }
-        /// <summary>
-        /// Dispose do serviço.
-        /// </summary>
-        /// <param name="disposing"></param>
-        protected override void Dispose(bool disposing)
-        {
-            this.servico = null;
-            base.Dispose(disposing);
-        }
+        
     }
 }

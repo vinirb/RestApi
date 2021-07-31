@@ -1,6 +1,7 @@
 ﻿using Atacado.DAL.Model;
 using Atacado.POCO.Model;
 using Atacado.Service.Geografico;
+using AtacadoRestApi.Ancestor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,9 +17,9 @@ namespace AtacadoRestApi.Controllers
     /// </summary>
     [RoutePrefix("atacado/geografico/estado")]
 
-    public class EstadosController : BaseController
+    public class EstadosController : GenericBaseController<UnidadesFederacaoPoco>
     {
-        private UnidadesFederacaoService servico;
+        
 
         /// <summary>
         /// Construtor da classe.
@@ -104,7 +105,11 @@ namespace AtacadoRestApi.Controllers
             }
 
         }
-
+        /// <summary>
+        /// Faz busca de Estados por ID.
+        /// </summary>
+        /// <param name="ufid">chave primaria.</param>
+        /// <returns></returns>
         [HttpGet]
         [Route("{ufid:int}/mesoregioes")]
         [ResponseType(typeof(UnidadesFederacaoPoco))]
@@ -195,15 +200,7 @@ namespace AtacadoRestApi.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex);
             }
         }
-        /// <summary>
-        /// Dispose do serviço.
-        /// </summary>
-        /// <param name="disposing"></param>
-        protected override void Dispose(bool disposing)
-        {
-            this.servico = null;
-            base.Dispose(disposing);
-        }
+       
     }
     
 }

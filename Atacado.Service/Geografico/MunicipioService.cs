@@ -12,11 +12,9 @@ using System.Threading.Tasks;
 
 namespace Atacado.Service.Geografico
 {
-    public class MunicipioService : IService<MunicipioPoco>
+    public class MunicipioService : GenericService<DbContext, Municipio, CategoriaPoco>, IService<MunicipioPoco>
     {
-        private MunicipioRepository repositorio;
-
-        private MunicipioMap mapa;
+       
 
         public MunicipioService(DbContext contexto)
         {

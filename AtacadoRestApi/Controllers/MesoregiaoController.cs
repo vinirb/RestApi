@@ -1,5 +1,6 @@
 ﻿using Atacado.POCO.Model;
 using Atacado.Service.Geografico;
+using AtacadoRestApi.Ancestor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,9 +15,9 @@ namespace AtacadoRestApi.Controllers
     /// Serviços de Categoria utilizando Design Patters.
     /// </summary>
     [RoutePrefix("atacado/geografico/mesoregiao")]
-    public class MesoregiaoController : BaseController
+    public class MesoregiaoController : GenericBaseController<MesoregiaoPoco>
     {
-        private MesoregiaoService servico;
+       
         /// <summary>
         /// Construtor da classe.
         /// </summary>
@@ -132,14 +133,6 @@ namespace AtacadoRestApi.Controllers
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, ex);
             }
         }
-        /// <summary>
-        /// Dispose do serviço.
-        /// </summary>
-        /// <param name="disposing"></param>
-        protected override void Dispose(bool disposing)
-        {
-            this.servico = null;
-            base.Dispose(disposing);
-        }
+        
     }
 }

@@ -4,6 +4,33 @@
         <name>AtacadoRestApi</name>
     </assembly>
     <members>
+        <member name="T:AtacadoRestApi.Ancestor.GenericBaseController`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="F:AtacadoRestApi.Ancestor.GenericBaseController`1.contexto">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:AtacadoRestApi.Ancestor.GenericBaseController`1.servico">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:AtacadoRestApi.Ancestor.GenericBaseController`1.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:AtacadoRestApi.Ancestor.GenericBaseController`1.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
         <member name="T:AtacadoRestApi.SwaggerConfig">
             <summary>
             
@@ -65,12 +92,6 @@
             <param name="id">chave Primaria.</param>
             <returns></returns>
         </member>
-        <member name="M:AtacadoRestApi.Controllers.CategoriaController.Dispose(System.Boolean)">
-            <summary>
-            Dispose do Serviço.
-            </summary>
-            <param name="disposing"></param>
-        </member>
         <member name="T:AtacadoRestApi.Controllers.EstadosController">
             <summary>
             Serviços para a tabela região
@@ -101,6 +122,13 @@
             <param name="siglaUF">Sigla estado.</param>
             <returns></returns>
         </member>
+        <member name="M:AtacadoRestApi.Controllers.EstadosController.GetMesoreioesPorID(System.Int32)">
+            <summary>
+            Faz busca de Estados por ID.
+            </summary>
+            <param name="ufid">chave primaria.</param>
+            <returns></returns>
+        </member>
         <member name="M:AtacadoRestApi.Controllers.EstadosController.Post(Atacado.POCO.Model.UnidadesFederacaoPoco)">
             <summary>
             Criar registro na tabela
@@ -122,12 +150,6 @@
             </summary>
             <param name="id">Chave primaria do registro</param>
             <returns></returns>
-        </member>
-        <member name="M:AtacadoRestApi.Controllers.EstadosController.Dispose(System.Boolean)">
-            <summary>
-            Dispose do serviço.
-            </summary>
-            <param name="disposing"></param>
         </member>
         <member name="T:AtacadoRestApi.Controllers.MesoregiaoController">
             <summary>
@@ -173,12 +195,6 @@
             <param name="id">chave Primaria.</param>
             <returns></returns>
         </member>
-        <member name="M:AtacadoRestApi.Controllers.MesoregiaoController.Dispose(System.Boolean)">
-            <summary>
-            Dispose do serviço.
-            </summary>
-            <param name="disposing"></param>
-        </member>
         <member name="T:AtacadoRestApi.Controllers.MicroregiaoController">
             <summary>
             Serviços de Categoria utilizando Design Patters.
@@ -222,12 +238,6 @@
             </summary>
             <param name="id">chave Primaria.</param>
             <returns></returns>
-        </member>
-        <member name="M:AtacadoRestApi.Controllers.MicroregiaoController.Dispose(System.Boolean)">
-            <summary>
-            Dispose do serviço.
-            </summary>
-            <param name="disposing"></param>
         </member>
         <member name="T:AtacadoRestApi.Controllers.MunicipioController">
             <summary>
@@ -274,12 +284,6 @@
             <param name="id">Chave primaria do registro</param>
             <returns></returns>
         </member>
-        <member name="M:AtacadoRestApi.Controllers.MunicipioController.Dispose(System.Boolean)">
-            <summary>
-            Dispose do Serviço.
-            </summary>
-            <param name="disposing"></param>
-        </member>
         <member name="T:AtacadoRestApi.Controllers.ProdutoController">
             <summary>
             Serviços de Categoria utilizando Design Patters.
@@ -323,12 +327,6 @@
             </summary>
             <param name="id">chave Primaria.</param>
             <returns></returns>
-        </member>
-        <member name="M:AtacadoRestApi.Controllers.ProdutoController.Dispose(System.Boolean)">
-            <summary>
-            Dispose do serviço.
-            </summary>
-            <param name="disposing"></param>
         </member>
         <member name="T:AtacadoRestApi.Controllers.RegiaoController">
             <summary>
@@ -377,12 +375,6 @@
             <param name="id">Chave primária do registro.</param>
             <returns></returns>
         </member>
-        <member name="M:AtacadoRestApi.Controllers.RegiaoController.Dispose(System.Boolean)">
-            <summary>
-            Dispose do serviço.
-            </summary>
-            <param name="disposing"></param>
-        </member>
         <member name="T:AtacadoRestApi.Controllers.SubCategoriaController">
             <summary>
             Servicos de SubCategoria usando Design Patters
@@ -426,12 +418,6 @@
             </summary>
             <param name="id">chave Primaria.</param>
             <returns></returns>
-        </member>
-        <member name="M:AtacadoRestApi.Controllers.SubCategoriaController.Dispose(System.Boolean)">
-            <summary>
-            Dispose do serviço.
-            </summary>
-            <param name="disposing"></param>
         </member>
     </members>
 </doc>

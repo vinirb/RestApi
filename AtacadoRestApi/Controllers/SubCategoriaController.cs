@@ -1,5 +1,6 @@
 ﻿using Atacado.POCO.Model;
 using Atacado.Service.Estoque;
+using AtacadoRestApi.Ancestor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,10 +15,10 @@ namespace AtacadoRestApi.Controllers
     /// Servicos de SubCategoria usando Design Patters
     /// </summary>
     [RoutePrefix ("atacado/estoque/subcategoria")]
-    public class SubCategoriaController : BaseController
+    public class SubCategoriaController : GenericBaseController<SubCategoriaPoco>
     {
 
-        private SubCategoriaService servico;
+        
         /// <summary>
         /// Construtor da classe.
         /// </summary>
@@ -133,14 +134,6 @@ namespace AtacadoRestApi.Controllers
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, ex);
             }
         }
-        /// <summary>
-        /// Dispose do serviço.
-        /// </summary>
-        /// <param name="disposing"></param>
-        protected override void Dispose(bool disposing)
-        {
-            this.servico = null;
-            base.Dispose(disposing);
-        }
+       
     }
 }

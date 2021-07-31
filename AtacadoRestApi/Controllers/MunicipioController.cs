@@ -1,6 +1,7 @@
 ﻿using Atacado.DAL.Model;
 using Atacado.POCO.Model;
 using Atacado.Service.Geografico;
+using AtacadoRestApi.Ancestor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,11 +17,10 @@ namespace AtacadoRestApi.Controllers
     /// </summary>
     [RoutePrefix("atacado/geografico/municipio")]
 
-    public class MunicipioController : BaseController
+    public class MunicipioController : GenericBaseController<MunicipioPoco>
     {
 
-        private MunicipioService servico;
-
+        
         /// <summary>
         /// Chamado do controlador base
         /// </summary>
@@ -151,14 +151,6 @@ namespace AtacadoRestApi.Controllers
             }
 
         }
-        /// <summary>
-        /// Dispose do Serviço.
-        /// </summary>
-        /// <param name="disposing"></param>
-        protected override void Dispose(bool disposing)
-        {
-            this.servico = null;
-            base.Dispose(disposing);
-        }
+        
     }
 }
